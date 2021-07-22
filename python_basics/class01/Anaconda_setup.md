@@ -2,7 +2,7 @@
 ## Install anaconda
 **Anaconda** is a distribution of packages built for data science. It comes with conda, a package and environment manager. We can use conda to create environments for isolating your projects which use different versions of packages such as python. We can also use it to install, uninstall, manage, and update packages in our environments. 
 
-**Anaconda** is available for Windows, Mac OS X, and Linux. You can find the installers and installation instructions at [Here](https://docs.anaconda.com/anaconda/install/). Choose the installation based on your operating system.
+**Anaconda** is available for Windows, Mac OS X, and Linux. You can find the installers and installation instructions at [Here](https://www.anaconda.com/products/individual#Downloads). Choose the installation based on your operating system.
 
 Choose the Python 3 version. Also, choose the 64-bit installer if you have a 64-bit operating system, otherwise go with the 32-bit installer. 
 
@@ -18,7 +18,7 @@ conda upgrade --all
 Answer `yes` when asked if you want to install the packages. The packages that come with the initial install tend to be out of date, so updating them now will prevent future errors from out of date software.
 
 #####Troubleshooting#####
-If you are using ZShell and seeing the following 
+If you are using ZShell and seeing the following error message:
 
 ```
 conda command not found
