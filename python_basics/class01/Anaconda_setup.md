@@ -12,7 +12,7 @@ For Windows user, open the Anaconda Prompt application. For Mac user, use your t
 
 ```
 conda upgrade --all
-# this step taks forever, so if in hurry, do it later.
+# this step takes forever, so if in hurry, do it later.
 ```
 
 Answer `yes` when asked if you want to install the packages. The packages that come with the initial install tend to be out of date, so updating them now will prevent future errors from out of date software.
@@ -35,8 +35,8 @@ To create an environment, use `conda create -n env_name [list of packages]` in y
 i.e.:
 
 ```
-conda create -n py3basics python=3
-# (py3basics is a name I give for ou class. Feel free to choose another name.)
+conda create -n intro python=3
+# (intro is a name I give for ou class. Feel free to choose another name.)
 ```
 
 When prompted `The following NEW packages will be INSTALLED`, enter `y` to proceed.
@@ -44,19 +44,19 @@ When prompted `The following NEW packages will be INSTALLED`, enter `y` to proce
 When creating an environment, you can specify which version of Python to install in the environment. This command installs the most recent version of Python 3. To install a specific version, for example you can use `conda create -n itds python=3.5` for Python 3.5.
 
 ### Enter and leave the environment
-Use `conda activate py3basics` or `source activate py3basics` to enter the environment you just created on Mac OSX/Linux. 
-On Windows, use `activate py3basics`.
+Use `conda activate intro` or `source activate intro` to enter the environment you just created on Mac OSX/Linux. 
+On Windows, use `activate intro`.
 
 To leave the environment, use `conda deactivate` or `source deactivate` (the latter command may give you error message sometimes depending on your setting) on OSX/Linux. 
 On Windows, use `deactivate`.
 
-For the next steps, let's activate and stay in the `py3basics` environment.
+For the next steps, let's activate and stay in the `intro` environment.
 
 ### Install packages
 When you are in the environment, you'll see the environment name in the terminal prompt like below. 
 
 ```
-(py3basics) Macbook:ds-intro-class user$ 
+(intro) Macbook:ds-intro-class user$ 
 ```
 
 The environment has only a few packages installed by default, plus the ones you installed when creating it. You can check this out with `conda list`. Installing packages in the environment is: `conda install package_name`. The specific packages you install will only be available when you're in the environment. 
@@ -79,9 +79,9 @@ So here are the commands we want to run to create the environment we need for th
 
 ```
 # (using MAC)
-conda create -n py3basics python=3
+conda create -n intro python=3
 conda env list
-conda activate py3basics
+conda activate intro
 conda list
 conda install numpy pandas jupyter notebook git matplotlib seaborn pandas-profiling scipy
 conda list
