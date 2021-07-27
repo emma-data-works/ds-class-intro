@@ -46,7 +46,7 @@ As we've seen some conflicts with upstream and local changes, let's try to follo
 		```
 
 	- If you have modified files in your local branch `[branch_name]` you might [have a conflict that prevents you from merging](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-merge-conflicts). There are a few ways to resolve the conflict:
-		- [Resolve through command line](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line): [https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line]. After resolving the conflict, stage and commit your changes. Now you can merge or push changes to `origin`
+		- [Resolve through command line](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line): After resolving the conflict, stage and commit your changes. Now you can merge or push changes to `origin`
 		- Instead of using `git merge`, use `git rebase`. `rebase` is like changing the "reference point" of you commit. Instead of using `origin/[branch_name]` as base for change, now you can ask Git to use the new `upstream/[branch_name]` so changes on both sides are included. If you want to use this, instead of the code block above, use the following:
 
 			```
@@ -76,7 +76,7 @@ As we've seen some conflicts with upstream and local changes, let's try to follo
 	git commit -m "[message goes here]"
 	git push origin [branch_name]
 	```
-*Note*:  you are ALWAYS pushing to remote, make sure you are pushing to your forked repo as you don't have access to the class repo (this should be your `upstream` instead). Run `git remote -v` to check your remote settings and add/remove/modify as need.
+*Note*:  you are **ALWAYS** pushing to remote, make sure you are pushing to **your forked repo** as you don't have access to the class repo (this should be your `upstream` instead). Run `git remote -v` to check your remote settings and add/remove/modify as need.
 
 	
 	
