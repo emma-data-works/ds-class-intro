@@ -18,7 +18,18 @@ You can run python in different settings, for example, you can use `jupyter` not
 	1. Assign values to variables and simple arithmetics
 	2. `Print` and simple string manimulation
 
+[class02](https://github.com/emma-data-works/ds-class-intro/tree/master/python_basics/class02):
 
+	3. Value comparison and conditions using `if-elif-else`
+	4. Collections: list, tuple, set, and dictionary
+	*  Git - Commiting, Pushing, and Pull Request
+
+**Homework_01(Exercise0,3,4)** is due next class. Please refer to [homework submission instructions](https://github.com/emma-data-works/ds-class-intro/blob/master/Git-setup-and-hw-instruction.md) for how to open pull request for submission.
+
+[class03](https://github.com/emma-data-works/ds-class-intro/tree/master/python_basics/class02):
+
+	5. Iteration: loops and comprehensions
+	*  HW01 review [delayed]
 
 
 ##### Ref:
