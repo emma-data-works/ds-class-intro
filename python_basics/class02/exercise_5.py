@@ -6,7 +6,15 @@ Edit this file to complete Exercise 5
 
 # code up your solution here
 
+i = 1500
+divBy_5and7 = []
 
+while i <= 2700:
+    if i % 7 == 0 and i % 5 == 0:
+        divBy_5and7.append(i)
+    i += 1
+    
+print(divBy_5and7)
 
 
 
@@ -19,6 +27,18 @@ Edit this file to complete Exercise 5
 
 # code up your solution here
 
+nums = [1,2,3,4,5,...]
+odds = 0
+evens = 0
+
+for i in nums:
+    if i % 2 == 0:
+        evens += 1
+    else: 
+        odds += 1
+
+print('Number of odd numbers: {}'.format(odds))
+print('Number of even numbers: {}'.format(evens))
 
 
 
@@ -35,7 +55,18 @@ Edit this file to complete Exercise 5
 
 # code up your solution here
 
+a = 0
 
+while a <= 50:
+    if a % 3 == 0 and a % 5 == 0:
+        print('FizzBuzz')
+    elif a % 3 == 0:
+        print('Fizz')
+    elif a % 5 == 0:
+        print('Buzz')
+    else:
+        print('{}'.format(a))
+    a += 1
 
 
 
@@ -50,21 +81,30 @@ Edit this file to complete Exercise 5
 
 # code up your solution here
 
+list1 = [5,7,24,335,74,15,33,...]
+list1.sort()
 
+for i in list1:
+    if i % 5 == 0 and i <= 150:
+        print(i)
 
 
 # 5. Pick one of the questions above and use range() for a different solution
 
 # code up your solution here
 
-
+# Q4
+for i in range(len(list1)):
+    if list1[i] % 5 == 0 and list1[i] <= 150:
+        print(list1[i])
 
 
 # 6. Pick one of the question above and use comprehension for a different solution
 
 # code up your solution here
 
-
+# Q4
+print([i for i in list1 if i % 5 == 0 and i <= 150])
 
 
 # 7. Pcik one of the questions above and use while loop for a different solution
