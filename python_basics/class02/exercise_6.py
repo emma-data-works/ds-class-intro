@@ -99,12 +99,10 @@ def perfect_number():
 	i = 1
     	sum = 0
     	perfect = False
-   	while i < number:
+    	while i < number:
         	if number % i == 0:
             		sum += i
-            		i += 1
-        	else:
-            		i += 1
+        	i += 1
     	if sum == number:
         	perfect = True
    	return perfect
