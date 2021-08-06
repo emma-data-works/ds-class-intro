@@ -111,6 +111,7 @@ print([i for i in list1 if i % 5 == 0 and i <= 150])
 
 # code up your solution here
 
+# Q4
 i = 0
 while i < len(list1):
     if list1[i] % 5 == 0 and list1[i] <= 150:
