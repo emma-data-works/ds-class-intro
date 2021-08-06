@@ -23,7 +23,7 @@ def calculation(a, b):
 	'''
 
 	# code up your solution here
-
+	return a+b, abs(a-b)
 
 
 def triangle_lambda():
@@ -37,7 +37,7 @@ def triangle_lambda():
 	Returns:
 	lambda_triangle_area: the lambda
 	'''
-
+	return lambda base, height: base * height / 2 
 
 
 def sort_words(hyphen_str):
@@ -59,10 +59,10 @@ def sort_words(hyphen_str):
 	'''
 
 	# code up your solution here
+	return '-'.join(sorted( hyphen_str.split('-')))
 
 
-
-def perfect_number():
+def perfect_number( number):
 	'''
 	Write a Python function to check whether a number is perfect or not.
 
@@ -80,9 +80,39 @@ def perfect_number():
 	Returns:
 	perfect: boolean, True if number is perfect
 	'''
-
 	# code up your answer here
+	# for an arbitrary number, find the positive divisors bound;
+	# note that int(float) == floor(float),
+	# it is good to have a looser bound, so max_bound = int(float)+1.
+	# it may waste some computational power, but it is safer.
+	min_prop_divd = 1 
+	max_prop_divd = int(number / 2) + 1   
 
+	# loop to look for the maximum proper divisors
+	sum_fac = 0
+	for i in range( min_prop_divd, max_prop_divd + 1):
+		if number % i == 0:
+			sum_fac += i 
+
+	# check if the number is a perfect number
+	return sum_fac == number 
+
+## To test the solution of Q4, we use a function
+def check_Q4():
+	'''
+	Loop to find the perfect word within 0-10,000.
+	'''
+	perfect_nums = []
+	for num in range(2, int(1e4)):
+		if perfect_number( num):
+			perfect_nums.append( num)
+	return perfect_nums
 
 if __name__ == '__main__':
-	pass
+	
+	# Test my answer 
+	print( f' The sum for 40 and 10 is: {calculation( 40, 10)[0]},\n and the substraction is {calculation( 40, 10)[1]}')
+	print( f' The area of a triangle with base=3 and height=4 is: {triangle_lambda()( 3, 4)}')
+	print( f' The sorted string of \'green-red-yellow-black-white\': {sort_words("green-red-yellow-black-white")}')
+	print( f' The perfect number within 2-10,000 are: {check_Q4()}')
+	
