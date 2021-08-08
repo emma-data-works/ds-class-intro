@@ -31,7 +31,17 @@ You can run python in different settings, for example, you can use `jupyter` not
 	5. Iteration: loops and comprehensions
 	*  HW01 review [delayed]
 
+[class04](https://github.com/emma-data-works/ds-class-intro/tree/master/python_basics/class02)
 
+	6. Writing functions
+
+**Homework_02 (Exercise 5, 6)** is assigned, it's due next Wednesday 8/11, but we'll start discussion/review on 8/8.
+
+[class05](https://github.com/emma-data-works/ds-class-intro/tree/master/python_basics/class03)
+
+	7. Reading and writing files
+	8. Intro to code complexity and performance (part1)
+	
 ##### Ref:
 https://github.com/tdpetrou/Minimally-Sufficient-Pandas
 
