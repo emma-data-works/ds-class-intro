@@ -2,6 +2,13 @@
 
 Welcome to the intro-level DS class, where we will learn about python basics and how to use python for exploratory data analysis. Hope you'll enjoy the class and learn something from it.
 
+**Note:** If you're getting the following error while cloning or pushing to GitHub, try to set up PAT following [this instruction](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-token).
+
+*Error message:*
+`remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.`
+`remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.`
+`fatal: unable to access 'https://github.com/emma-data-works/ds-class-intro.git/': The requested URL returned error: 403`
+
 ### 0. Get started - 
 If you can, try to go throug the following reading and set up your local environment before class:
 
@@ -42,6 +49,19 @@ You can run python in different settings, for example, you can use `jupyter` not
 	7. Reading and writing files
 	8. Intro to code complexity and performance (part1)
 	
+[class06](https://github.com/emma-data-works/ds-class-intro/tree/master/python_basics/class04)
+
+	9. Coding challenge example using HackerRank and LeetCode
+	10. [Material Provided] Objected oriented programming
+	11. A/B testing discussion
+
+[class07](https://github.com/emma-data-works/ds-class-intro/tree/master/pandas_intro) Beginning of `pandas` for data analysis 
+
+	1. Data exploration: Intro to `pandas` 
+	2. Data wrangling basics
+
+
+
 ##### Ref:
 https://github.com/tdpetrou/Minimally-Sufficient-Pandas
 
