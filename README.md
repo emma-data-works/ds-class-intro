@@ -42,13 +42,15 @@ You can run python in different settings, for example, you can use `jupyter` not
 
 	6. Writing functions
 
-**Homework_02 (Exercise 5, 6)** is assigned, it's due next Wednesday 8/11, but we'll start discussion/review on 8/8.
+**Homework_02 (Exercise 5, 6)** is assigned, it's due next Wednesday 8/11, but we'll start discussion/review on 8/8. [Sample answer](https://github.com/emma-data-works/ds-class-intro/tree/master/python_basics/class02) is posted for reference.
 
 [class05](https://github.com/emma-data-works/ds-class-intro/tree/master/python_basics/class03)
 
 	7. Reading and writing files
 	8. Intro to code complexity and performance (part1)
-	
+
+[Sample answer](https://github.com/emma-data-works/ds-class-intro/tree/master/python_basics/class03) for `exercise 7` is posted for reference.
+
 [class06](https://github.com/emma-data-works/ds-class-intro/tree/master/python_basics/class04)
 
 	9. Coding challenge example using HackerRank and LeetCode
@@ -60,7 +62,22 @@ You can run python in different settings, for example, you can use `jupyter` not
 	1. Data exploration: Intro to `pandas` 
 	2. Data wrangling basics
 
+[class08](https://github.com/emma-data-works/ds-class-intro/tree/master/pandas_intro)
 
+	2. Data wrangling basics
+	3. Using `pandas` for exploratory data analysis
+
+**Homework_03 (all exercises in pandas section)** is assigned, it's due before the final class, sample answer will be posted before final class.
+
+[class09](https://github.com/emma-data-works/ds-class-intro/tree/master/pandas_intro)
+
+	3. Using `pandas` for exploratory data analysis
+	4. Plotting in python
+
+[class10](https://github.com/emma-data-works/ds-class-intro/tree/master/final_class) dataset has been uploaded for preview
+
+	[5. Advanced EDA topics] -- depends on time
+	6. Mock take-home case study
 
 ##### Ref:
 https://github.com/tdpetrou/Minimally-Sufficient-Pandas
