@@ -12,9 +12,9 @@ Finish at least one of the following two problems and submit your solution on [H
 *Note: this question is adapted from an interview: https://github.com/Tian-Su/Walmart_MI_ML_interview_campus*
 
 We will leverage this new kaggle dataset for a simple exercise.
-https://www.kaggle.com/sudalairajkumar/novgel-corona-virus-2019-dataset
+https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset 
 
-Data is available on Kaggle link above as well as in our repo as a `.zip` file [here](https://github.com/emma-oc/ds-class-intro/tree/master/final_class).
+Data is available on Kaggle link above as well as in our repo as a `.zip` file [here](https://github.com/emma-data-works/ds-class-intro/blob/master/final_class/novel-corona-virus-2019-dataset.zip).
 
 Tasks:
 
