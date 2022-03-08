@@ -3,3 +3,4 @@
 ################################################################################
 
 *.ipynb_checkpoints
+/python_basics/class02/homework/__pycache__
